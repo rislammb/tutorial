@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>Web Development Tutorial Site</h1>
+      <p>Only for web Portfolio, not complete tutorial.</p>
+    </div>
+  </div>
+
+  <div class="sticky-top">
+    <ul class="nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active" href="#">Html</a></li>
+      <li><a href="css.html">CSS</a></li>
+      <li><a href="javascript.html">JavaScript</a></li>
+      <li><a href="php.html">Php</a></li>
+      <li><a href="asp.html">Asp</a></li>
+      <li><a href="python.html">Python</a></li>
+      <li><a href="bootstrap.html">Bootstrap</a></li>
+      <li><a href="jquery.html">Jquery</a></li>
+      <li><a href="react.html">React</a></li>
+    </ul>
+  </div>
+
+  <div id="tutorial-container" class="container">
+
+    <div class="right-menu">
+      <ul class="right-nav">
+        <li class="title">HTML</li>
+        <li class="active">Introduction</li>
+        <li onclick="loadDoc('txt/heading.txt', loadLesson)">Heading</li>
+        <li onclick="loadDoc('txt/paragraph.txt', loadLesson)">Paragraph</li>
+        <li onclick="loadDoc('txt/list.txt', loadLesson)">List</li>
+        <li onclick="loadDoc('txt/table.txt', loadLesson)">Table</li>
+        <li onclick="loadDoc('txt/image.txt', loadLesson)">Image</li>
+        <li onclick="loadDoc('txt/style.txt', loadLesson)">Style</li>
+        <li onclick="loadDoc('txt/link.txt', loadLesson)">Link</li>
+        <li onclick="loadDoc('txt/color.txt', loadLesson)">Color</li>
+        <li onclick="loadDoc('txt/css.txt', loadLesson)">CSS</li>
+        <li onclick="loadDoc('txt/attributes.txt', loadLesson)">Attributes</li>
+        <li onclick="loadDoc('txt/elements.txt', loadLesson)">Elements</li>
+        <li onclick="loadDoc('txt/comments.txt', loadLesson)">Comments</li>
+        <li onclick="loadDoc('txt/classes.txt', loadLesson)">Classes</li>
+        <li onclick="loadDoc('txt/id.txt', loadLesson)">ID</li>
+        <li onclick="loadDoc('txt/iframe.txt', loadLesson)">Iframe</li>
+        <li onclick="loadDoc('txt/javascript.txt', loadLesson)">JavaScript</li>
+        <li onclick="loadDoc('txt/head.txt', loadLesson)">Head</li>
+      </ul>
+    </div>
+
+    <div class="tutorial-content">
+      <h1>HTML Introduction</h1>
+      <p>
+        <b>HTML</b>- <b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>L</b>anguage. <br>
+        With HTML you can create your won website. <br>
+        This website for only testing purpose. <br>
+      </p>
+      <h2>HTML Document Example</h2>
+      <ul class="example">
+        <li>&lt;<span>!DOCTYPE html</span>&gt;</li>
+        <li>&lt;<span>html</span>&gt;</li>
+        <li>&lt;<span>head</span>&gt;</li>
+        <li>&lt;<span>title</span>&gt;Page Title&lt;<span>/title</span>&gt;</li>
+        <li>&lt;<span>/head</span>&gt;</li>
+        <li>&lt;<span>body</span>&gt;</li>
+        <li>&lt;<span>h1</span>&gt;Page Heading&lt;<span>/h1</span>&gt;</li>
+        <li>&lt;<span>p</span>&gt;The Paragraph.&lt;<span>/p</span>&gt;</li>
+        <li>&lt;<span>/body</span>&gt;</li>
+        <li>&lt;<span>/html</span>&gt;</li>
+      </ul>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="container">
+    <div class="footer">&copy; rwdts 2019</div>
+  </div>
+  <script src="myscript.js"></script>
+</body>
+</html>

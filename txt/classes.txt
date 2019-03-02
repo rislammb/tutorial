@@ -1,0 +1,58 @@
+  <div id="tutorial-container" class="container">
+
+    <div class="right-menu">
+      <ul class="right-nav">
+        <li class="title">HTML</li>
+        <li onclick="loadDoc('txt/introduction.txt', loadLesson)">Introduction</li>
+        <li onclick="loadDoc('txt/heading.txt', loadLesson)">Heading</li>
+        <li onclick="loadDoc('txt/paragraph.txt', loadLesson)">Paragraph</li>
+        <li onclick="loadDoc('txt/list.txt', loadLesson)">List</li>
+        <li onclick="loadDoc('txt/table.txt', loadLesson)">Table</li>
+        <li onclick="loadDoc('txt/image.txt', loadLesson)">Image</li>
+        <li onclick="loadDoc('txt/style.txt', loadLesson)">Style</li>
+        <li onclick="loadDoc('txt/link.txt', loadLesson)">Link</li>
+        <li onclick="loadDoc('txt/color.txt', loadLesson)">Color</li>
+        <li onclick="loadDoc('txt/css.txt', loadLesson)">CSS</li>
+        <li onclick="loadDoc('txt/attributes.txt', loadLesson)">Attributes</li>
+        <li onclick="loadDoc('txt/elements.txt', loadLesson)">Elements</li>
+        <li onclick="loadDoc('txt/comments.txt', loadLesson)">Comments</li>
+        <li class="active">Classes</li>
+        <li onclick="loadDoc('txt/id.txt', loadLesson)">ID</li>
+        <li onclick="loadDoc('txt/iframe.txt', loadLesson)">Iframe</li>
+        <li onclick="loadDoc('txt/javascript.txt', loadLesson)">JavaScript</li>
+        <li onclick="loadDoc('txt/head.txt', loadLesson)">Head</li>
+      </ul>
+    </div>
+
+    <div class="tutorial-content">
+      <h1>HTML Classes</h1>
+      <p>
+        Using <b>class</b> attribute you can defined equal style for many elements. <br>
+        Same class attribute use for any type of HTML elements. <br>
+        In CSS and JavaScript you can posible many action with class attribute. <br>
+      </p>
+      <h2>HTML Class Example</h2>
+      <ul class="example">
+        <li>&lt;<span>!DOCTYPE html</span>&gt;</li>
+        <li>&lt;<span>html</span>&gt;</li>
+        <li>&lt;<span>head</span>&gt;</li>
+        <li>&lt;<span>title</span>&gt;Page Title&lt;<span>/title</span>&gt;</li>
+        <li>&lt;<span>style</span>&gt;</li>
+        <li>&#46;blue {<br />
+          color: blue; <br />
+        }</li>
+        <li>&#46;para {<br />
+          background-color: lightgreen; <br />
+        }</li>
+        <li>&lt;<span>/style</span>&gt;</li>
+        <li>&lt;<span>/head</span>&gt;</li>
+        <li>&lt;<span>body</span>&gt;</li>
+        <li>&lt;<span>h1</span> <span>class=</span><span class="value">"blue"</span>&gt;Page Heading&lt;<span>/h1</span>&gt;</li>
+        <li>&lt;<span>p</span> <span>class=</span><span class="value">"blue"</span>&gt;The Paragraph.&lt;<span>/p</span>&gt;</li>
+        <li>&lt;<span>p</span> <span>class=</span><span class="value">"para"</span>&gt;The Paragraph.&lt;<span>/p</span>&gt;</li>
+        <li>&lt;<span>/body</span>&gt;</li>
+        <li>&lt;<span>/html</span>&gt;</li>
+      </ul>
+    </div>
+    <div class="clearfix"></div>
+  </div>

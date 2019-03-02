@@ -1,0 +1,48 @@
+  <div id="tutorial-container" class="container">
+
+    <div class="right-menu">
+      <ul class="right-nav">
+        <li class="title">HTML</li>
+        <li onclick="loadDoc('txt/introduction.txt', loadLesson)">Introduction</li>
+        <li onclick="loadDoc('txt/heading.txt', loadLesson)">Heading</li>
+        <li onclick="loadDoc('txt/paragraph.txt', loadLesson)">Paragraph</li>
+        <li onclick="loadDoc('txt/list.txt', loadLesson)">List</li>
+        <li onclick="loadDoc('txt/table.txt', loadLesson)">Table</li>
+        <li onclick="loadDoc('txt/image.txt', loadLesson)">Image</li>
+        <li class="active">Style</li>
+        <li onclick="loadDoc('txt/link.txt', loadLesson)">Link</li>
+        <li onclick="loadDoc('txt/color.txt', loadLesson)">Color</li>
+        <li onclick="loadDoc('txt/css.txt', loadLesson)">CSS</li>
+        <li onclick="loadDoc('txt/attributes.txt', loadLesson)">Attributes</li>
+        <li onclick="loadDoc('txt/elements.txt', loadLesson)">Elements</li>
+        <li onclick="loadDoc('txt/comments.txt', loadLesson)">Comments</li>
+        <li onclick="loadDoc('txt/classes.txt', loadLesson)">Classes</li>
+        <li onclick="loadDoc('txt/id.txt', loadLesson)">ID</li>
+        <li onclick="loadDoc('txt/iframe.txt', loadLesson)">Iframe</li>
+        <li onclick="loadDoc('txt/javascript.txt', loadLesson)">JavaScript</li>
+        <li onclick="loadDoc('txt/head.txt', loadLesson)">Head</li>
+      </ul>
+    </div>
+
+    <div class="tutorial-content">
+      <h1>HTML Styles</h1>
+      <p>
+        HTML Styles is makeup for web page. <br />
+        HTML styled by <b>CSS</b>- <b>C</b>ascading <b>S</b>tyle <b>S</b>heets. <br />
+      </p>
+      <h2>HTML Style Example</h2>
+      <ul class="example">
+        <li>&lt;<span>!DOCTYPE html</span>&gt;</li>
+        <li>&lt;<span>html</span>&gt;</li>
+        <li>&lt;<span>head</span>&gt;</li>
+        <li>&lt;<span>title</span>&gt;Page Title&lt;<span>/title</span>&gt;</li>
+        <li>&lt;<span>/head</span>&gt;</li>
+        <li>&lt;<span>body</span>&gt;</li>
+        <li>&lt;<span>h1</span> <span>style=</span><span class="value">"color:blue;"</span>&gt;Page Heading&lt;<span>/h1</span>&gt;</li>
+        <li>&lt;<span>p</span> <span>style=</span><span class="value">"background-color:ligntgreen;"</span>&gt;The Paragraph.&lt;<span>/p</span>&gt;</li>
+        <li>&lt;<span>/body</span>&gt;</li>
+        <li>&lt;<span>/html</span>&gt;</li>
+      </ul>
+    </div>
+    <div class="clearfix"></div>
+  </div>

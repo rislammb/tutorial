@@ -1,0 +1,63 @@
+  <div id="tutorial-container" class="container">
+
+    <div class="right-menu">
+      <ul class="right-nav">
+        <li class="title">HTML</li>
+        <li onclick="loadDoc('txt/introduction.txt', loadLesson)">Introduction</li>
+        <li onclick="loadDoc('txt/heading.txt', loadLesson)">Heading</li>
+        <li onclick="loadDoc('txt/paragraph.txt', loadLesson)">Paragraph</li>
+        <li onclick="loadDoc('txt/list.txt', loadLesson)">List</li>
+        <li class="active">Table</li>
+        <li onclick="loadDoc('txt/image.txt', loadLesson)">Image</li>
+        <li onclick="loadDoc('txt/style.txt', loadLesson)">Style</li>
+        <li onclick="loadDoc('txt/link.txt', loadLesson)">Link</li>
+        <li onclick="loadDoc('txt/color.txt', loadLesson)">Color</li>
+        <li onclick="loadDoc('txt/css.txt', loadLesson)">CSS</li>
+        <li onclick="loadDoc('txt/attributes.txt', loadLesson)">Attributes</li>
+        <li onclick="loadDoc('txt/elements.txt', loadLesson)">Elements</li>
+        <li onclick="loadDoc('txt/comments.txt', loadLesson)">Comments</li>
+        <li onclick="loadDoc('txt/classes.txt', loadLesson)">Classes</li>
+        <li onclick="loadDoc('txt/id.txt', loadLesson)">ID</li>
+        <li onclick="loadDoc('txt/iframe.txt', loadLesson)">Iframe</li>
+        <li onclick="loadDoc('txt/javascript.txt', loadLesson)">JavaScript</li>
+        <li onclick="loadDoc('txt/head.txt', loadLesson)">Head</li>
+      </ul>
+    </div>
+
+    <div class="tutorial-content">
+      <h1>HTML Table</h1>
+      <p>
+        Table are defined with <b>&lt;table&gt;</b> tag. <br>
+        Table Row are defined with <b>&lt;tr&gt;</b> tag. <br>
+        Table Heading are defined with <b>&lt;th&gt;</b> tag. <br>
+        Table Data are defined with <b>&lt;td&gt;</b> tag. <br>
+      </p>
+      <h2>HTML Table Example</h2>
+      <ul class="example">
+        <li>&lt;<span>!DOCTYPE html</span>&gt;</li>
+        <li>&lt;<span>html</span>&gt;</li>
+        <li>&lt;<span>head</span>&gt;</li>
+        <li>&lt;<span>title</span>&gt;Page Title&lt;<span>/title</span>&gt;</li>
+        <li>&lt;<span>/head</span>&gt;</li>
+        <li>&lt;<span>body</span>&gt;</li>
+        <li>&lt;<span>table</span>&gt; <br />
+        <pre>
+    &lt;<span>tr</span>&gt;
+        &lt;<span>th</span>&gt;Name&lt;<span>/th</span>&gt;
+        &lt;<span>th</span>&gt;Age&lt;<span>/th</span>&gt;
+    &lt;<span>/tr</span>&gt; 
+    &lt;<span>tr</span>&gt;
+        &lt;<span>td</span>&gt;Bablu&lt;<span>/td</span>&gt;
+        &lt;<span>td</span>&gt;30&lt;<span>/td</span>&gt;
+    &lt;<span>/tr</span>&gt; 
+    &lt;<span>tr</span>&gt;
+        &lt;<span>td</span>&gt;Tablu&lt;<span>/td</span>&gt;
+        &lt;<span>td</span>&gt;25&lt;<span>/td</span>&gt;
+    &lt;<span>/tr</span>&gt;</pre>
+        &lt;<span>/table</span>&gt;</li>
+        <li>&lt;<span>/body</span>&gt;</li>
+        <li>&lt;<span>/html</span>&gt;</li>
+      </ul>
+    </div>
+    <div class="clearfix"></div>
+  </div>

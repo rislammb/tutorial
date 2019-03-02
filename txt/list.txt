@@ -1,0 +1,94 @@
+  <div id="tutorial-container" class="container">
+
+    <div class="right-menu">
+      <ul class="right-nav">
+        <li class="title">HTML</li>
+        <li onclick="loadDoc('txt/introduction.txt', loadLesson)">Introduction</li>
+        <li onclick="loadDoc('txt/heading.txt', loadLesson)">Heading</li>
+        <li onclick="loadDoc('txt/paragraph.txt', loadLesson)">Paragraph</li>
+        <li class="active">List</li>
+        <li onclick="loadDoc('txt/table.txt', loadLesson)">Table</li>
+        <li onclick="loadDoc('txt/image.txt', loadLesson)">Image</li>
+        <li onclick="loadDoc('txt/style.txt', loadLesson)">Style</li>
+        <li onclick="loadDoc('txt/link.txt', loadLesson)">Link</li>
+        <li onclick="loadDoc('txt/color.txt', loadLesson)">Color</li>
+        <li onclick="loadDoc('txt/css.txt', loadLesson)">CSS</li>
+        <li onclick="loadDoc('txt/attributes.txt', loadLesson)">Attributes</li>
+        <li onclick="loadDoc('txt/elements.txt', loadLesson)">Elements</li>
+        <li onclick="loadDoc('txt/comments.txt', loadLesson)">Comments</li>
+        <li onclick="loadDoc('txt/classes.txt', loadLesson)">Classes</li>
+        <li onclick="loadDoc('txt/id.txt', loadLesson)">ID</li>
+        <li onclick="loadDoc('txt/iframe.txt', loadLesson)">Iframe</li>
+        <li onclick="loadDoc('txt/javascript.txt', loadLesson)">JavaScript</li>
+        <li onclick="loadDoc('txt/head.txt', loadLesson)">Head</li>
+      </ul>
+    </div>
+
+    <div class="tutorial-content">
+      <h1>HTML List</h1>
+      <p>
+        HTML has three type of list. <br>
+        1. Unorderd List, 2. Orderd List and 3. Description List. <br>
+      </p>
+      <h2>HTML Unorderd List Example</h2>
+      <p>Unorderd list defines with <b>&lt;ul&gt;</b> element.</p>
+      <ul class="example">
+        <li>&lt;<span>!DOCTYPE html</span>&gt;</li>
+        <li>&lt;<span>html</span>&gt;</li>
+        <li>&lt;<span>head</span>&gt;</li>
+        <li>&lt;<span>title</span>&gt;Page Title&lt;<span>/title</span>&gt;</li>
+        <li>&lt;<span>/head</span>&gt;</li>
+        <li>&lt;<span>body</span>&gt;</li>
+        <li>&lt;<span>ul</span>&gt; <br />
+        <pre>
+    &lt;<span>li</span>&gt;Mango&lt;<span>/li</span>&gt; 
+    &lt;<span>li</span>&gt;Banana&lt;<span>/li</span>&gt; 
+    &lt;<span>li</span>&gt;Orange&lt;<span>/li</span>&gt;</pre>
+        &lt;<span>/ul</span>&gt;</li>
+        <li>&lt;<span>/body</span>&gt;</li>
+        <li>&lt;<span>/html</span>&gt;</li>
+      </ul>
+      <br />
+
+      <h2>HTML Orderd List Example</h2>
+      <p>Unorderd list defines with <b>&lt;ol&gt;</b> element.</p>
+      <ul class="example">
+        <li>&lt;<span>!DOCTYPE html</span>&gt;</li>
+        <li>&lt;<span>html</span>&gt;</li>
+        <li>&lt;<span>head</span>&gt;</li>
+        <li>&lt;<span>title</span>&gt;Page Title&lt;<span>/title</span>&gt;</li>
+        <li>&lt;<span>/head</span>&gt;</li>
+        <li>&lt;<span>body</span>&gt;</li>
+        <li>&lt;<span>ol</span>&gt; <br />
+        <pre>
+    &lt;<span>li</span>&gt;Mango&lt;<span>/li</span>&gt; 
+    &lt;<span>li</span>&gt;Banana&lt;<span>/li</span>&gt; 
+    &lt;<span>li</span>&gt;Orange&lt;<span>/li</span>&gt;</pre>
+        &lt;<span>/ol</span>&gt;</li>
+        <li>&lt;<span>/body</span>&gt;</li>
+        <li>&lt;<span>/html</span>&gt;</li>
+      </ul>
+      <br />
+
+      <h2>HTML Description List Example</h2>
+      <p>Description list defines with <b>&lt;dl&gt;</b> element.</p>
+      <ul class="example">
+        <li>&lt;<span>!DOCTYPE html</span>&gt;</li>
+        <li>&lt;<span>html</span>&gt;</li>
+        <li>&lt;<span>head</span>&gt;</li>
+        <li>&lt;<span>title</span>&gt;Page Title&lt;<span>/title</span>&gt;</li>
+        <li>&lt;<span>/head</span>&gt;</li>
+        <li>&lt;<span>body</span>&gt;</li>
+        <li>&lt;<span>dl</span>&gt; <br />
+        <pre>
+    &lt;<span>dt</span>&gt;Milk&lt;<span>/dt</span>&gt; 
+    &lt;<span>dd</span>&gt;White cold drink.&lt;<span>/dd</span>&gt; 
+    &lt;<span>dt</span>&gt;Tea&lt;<span>/dt</span>&gt;
+    &lt;<span>dd</span>&gt;Red hot drink.&lt;<span>/dd</span>&gt;</pre>
+        &lt;<span>/dl</span>&gt;</li>
+        <li>&lt;<span>/body</span>&gt;</li>
+        <li>&lt;<span>/html</span>&gt;</li>
+      </ul>
+    </div>
+    <div class="clearfix"></div>
+  </div>

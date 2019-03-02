@@ -1,0 +1,51 @@
+  <div id="tutorial-container" class="container">
+
+    <div class="right-menu">
+      <ul class="right-nav">
+        <li class="title">HTML</li>
+        <li onclick="loadDoc('txt/introduction.txt', loadLesson)">Introduction</li>
+        <li onclick="loadDoc('txt/heading.txt', loadLesson)">Heading</li>
+        <li onclick="loadDoc('txt/paragraph.txt', loadLesson)">Paragraph</li>
+        <li onclick="loadDoc('txt/list.txt', loadLesson)">List</li>
+        <li onclick="loadDoc('txt/table.txt', loadLesson)">Table</li>
+        <li onclick="loadDoc('txt/image.txt', loadLesson)">Image</li>
+        <li onclick="loadDoc('txt/style.txt', loadLesson)">Style</li>
+        <li onclick="loadDoc('txt/link.txt', loadLesson)">Link</li>
+        <li onclick="loadDoc('txt/color.txt', loadLesson)">Color</li>
+        <li onclick="loadDoc('txt/css.txt', loadLesson)">CSS</li>
+        <li onclick="loadDoc('txt/attributes.txt', loadLesson)">Attributes</li>
+        <li onclick="loadDoc('txt/elements.txt', loadLesson)">Elements</li>
+        <li onclick="loadDoc('txt/comments.txt', loadLesson)">Comments</li>
+        <li onclick="loadDoc('txt/classes.txt', loadLesson)">Classes</li>
+        <li onclick="loadDoc('txt/id.txt', loadLesson)">ID</li>
+        <li onclick="loadDoc('txt/iframe.txt', loadLesson)">Iframe</li>
+        <li class="active">JavaScript</li>
+        <li onclick="loadDoc('txt/head.txt', loadLesson)">Head</li>
+      </ul>
+    </div>
+
+    <div class="tutorial-content">
+      <h1>HTML LavaScript</h1>
+      <p>
+        JavaScript makes HTML page more dynamic and interactive. <br />
+        The <b>&lt;script&gt;</b> tag used to define a client-side JavaScript. <br />
+      </p>
+      <h2>HTML JavaScript Example</h2>
+      <ul class="example">
+        <li>&lt;<span>!DOCTYPE html</span>&gt;</li>
+        <li>&lt;<span>html</span>&gt;</li>
+        <li>&lt;<span>head</span>&gt;</li>
+        <li>&lt;<span>title</span>&gt;Page Title&lt;<span>/title</span>&gt;</li>
+        <li>&lt;<span>/head</span>&gt;</li>
+        <li>&lt;<span>body</span>&gt;</li>
+        <li>&lt;<span>h1 id=</span><span class="value">"demo"</span>&gt;Page Heading&lt;<span>/h1</span>&gt;</li>
+        <li>&lt;<span>script</span>&gt; <br />
+        document.getElementById(<span>"demo"</span>).innerHTML = 
+        <span>"Hello JavaScript!";</span> <br />
+        &lt;<span>/script</span>&gt;</li>
+        <li>&lt;<span>/body</span>&gt;</li>
+        <li>&lt;<span>/html</span>&gt;</li>
+      </ul>
+    </div>
+    <div class="clearfix"></div>
+  </div>
